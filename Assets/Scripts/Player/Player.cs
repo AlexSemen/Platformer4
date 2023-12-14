@@ -13,6 +13,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(PlayerMove))]
 [RequireComponent(typeof(PlayerAttack))]
+[RequireComponent(typeof(PlayerVampire))]
 
 public class Player : MonoBehaviour, IHealthChanged
 {
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour, IHealthChanged
     private SpriteRenderer _spriteRenderer;
     private PlayerMove _playerMove;
     private PlayerAttack _playerAttack;
+    private PlayerVampire _playerVampire;
     
     public bool IsWounded 
     { 
@@ -64,6 +66,7 @@ public class Player : MonoBehaviour, IHealthChanged
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _playerMove = GetComponent<PlayerMove>();
         _playerAttack = GetComponent<PlayerAttack>();
+        _playerVampire = GetComponent<PlayerVampire>();
     }
 
     private void Start()
@@ -82,6 +85,11 @@ public class Player : MonoBehaviour, IHealthChanged
         {
             _animator.SetTrigger(AnimatorPlayer.Triggers.Attack);
             _playerAttack.Attack();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            _playerVampire.VampireAttack();
         }
     }
 

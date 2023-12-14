@@ -396,6 +396,7 @@
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerAttack.cs"
 "Assets/Scripts/Player/PlayerMove.cs"
+"Assets/Scripts/Player/PlayerVampire.cs"
 "Assets/Scripts/UI/HealthBar.cs"
 "Assets/Scripts/UI/IHealthChanged.cs"
 -langversion:9.0
