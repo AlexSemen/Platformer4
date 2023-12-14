@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BC0C72DA-769D-0A44-498A-2DF40D4A0362}</ProjectGuid>
+    <ProjectGuid>{FB386737-7588-4356-F2A4-E30DEE55D0CE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -878,7 +878,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="DOTween.Modules.csproj">
-      <Project>{EAC27088-3898-654D-01BF-70385A2D31E6}</Project>
+      <Project>{848913AB-CBE3-E567-B9BE-4E490974CC33}</Project>
       <Name>DOTween.Modules</Name>
     </ProjectReference>
   </ItemGroup>

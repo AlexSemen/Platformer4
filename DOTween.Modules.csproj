@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EAC27088-3898-654D-01BF-70385A2D31E6}</ProjectGuid>
+    <ProjectGuid>{848913AB-CBE3-E567-B9BE-4E490974CC33}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>DOTween.Modules</AssemblyName>
